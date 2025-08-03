@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.App svg:hover {
+  color: #4FC3F7;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
